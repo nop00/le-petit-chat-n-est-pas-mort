@@ -7,7 +7,7 @@ pceas demo.asm
 ````
 
 You can then load the generated demo.pce into [mednafen](http://mednafen.sourceforge.net), your other emulator of choice, or even the real hardware :)  
-/!\ Don't forget to turn on SuperGrafx emulation before running the demo.  
+:warning: Don't forget to turn on SuperGrafx emulation before running the demo.  
 For mednafen, open the configuration file and find the line containing ````pce.forcesgx```` and modify it so it looks like this:  
 ````pce.forcesgx 1````
 
